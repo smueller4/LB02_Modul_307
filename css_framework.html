@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LB02 Seraina Müller</title>
+    <link rel="stylesheet" href="css_framework.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="css_framework.html">
+                    <li>Formulare</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="einzelliges_textfeld">
+            <form>
+                <h1>Vor- und Nachname</h1>
+                <input type="text" name="vorname_nachname" size="60" maxlength="100">
+            </form>
+        </section>
+
+        <section class="mehrzelliges_textfeld">
+            <form>
+                <h1>Eigenschaften</h1>
+                <textarea name="mehrzelliges_textfeld" rows="7" cols="61" maxlength="2500">
+              </textarea>
+            </form>
+        </section>
+
+        <section class="passwortfeld">
+            <form>
+                <h1>Passwort</h1>
+                <input name="passwortfeld" type="password" size="60" maxlength="15">
+            </form>
+        </section>
+
+        <section class="radiobutton">
+            <form>
+                <h1>Geschlecht</h1>
+                <p>
+                    <input type="radio" name="gender" value="male">Männlich<br>
+                    <input type="radio" name="gender" value="female">Weiblich
+                </p>
+            </form>
+        </section>
+
+        <section class="checkbox">
+            <form>
+                <h1>Wählen Sie mind. zwei Fraben, die Sie mögen.</h1>
+                <p>
+                    <input type="checkbox" name="extra" id="c1" value="rot">
+                    <label for="c1">rot</label><br>
+                    <input type="checkbox" name="extra" id="c2" value="gelb">
+                    <label for="c2">gelb</label><br>
+                    <input type="checkbox" name="extra" id="c3" value="grün">
+                    <label for="c3">grün</label><br>
+                    <input type="checkbox" name="extra" id="c3" value="blau">
+                    <label for="c3">blau</label><br>
+                    <input type="checkbox" name="extra" id="c3" value="oragne">
+                    <label for="c3">orange</label>
+                </p>
+            </form>
+        </section>
+
+        <!--   <section class="validate_button">
+            <button type="button">validate</button>
+        </section>
+    -->
+        <section class="box-3">
+            <section class="btn btn-three">
+            </section>
+        </section>
+
+        <section class="footer">
+            <h2>2. Lehrjahr</h2>
+            <h2>Interaktive Webseite mit Formular erstellen</h2>
+            <h2>Juni 2021</h2>
+        </section>
+    </main>
+</body>
+
+</html>
