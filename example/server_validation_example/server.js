@@ -36,9 +36,8 @@ app.use(function (req, res, next) {
 //test uuid
 app.get('/test1', (req, res) => {
     const id = uuidv4();
-    res.send(id);
+    res.send("Seraina checkts");
 });
-
 
 
 // necessary for posting data
@@ -58,7 +57,6 @@ app.post('/register', (req, res) => {
 
     /* Aufgabe 1
         a: Fügen Sie Eingabefelder für Vor- und Nachname hinzu
-        b: Fügen Sie ein Eingabefeld für eine Telefonnummer hinzu
         c: Fügen Sie ein weiteres Passwortfeld (zur Bestätigung des
             ersten Passworts) hinzu
      */
