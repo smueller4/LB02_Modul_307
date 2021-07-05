@@ -1,3 +1,50 @@
 [
-    
+  {
+    "id": "27ff611d-e889-49ba-a15a-6630d6cef019",
+    "username": "Seraina Müller",
+    "email": "seraina@bzz.ch",
+    "password": "Seraina"
+  },
+  {
+    "id": "0ffdc3aa-8299-4152-83ea-a87daebc2c7b",
+    "username": "Seraina Müller",
+    "email": "seraina@bzz.ch",
+    "password": "Seraina"
+  },
+  {
+    "id": "2c695516-0b57-46f3-b98d-1445324e2d7d",
+    "username": "Sdlkfjngr",
+    "email": "seraina@bzz.ch",
+    "password": "Seraina",
+    "phone": "0774191700"
+  },
+  {
+    "id": "35df76b1-2af0-4dfb-b512-f4dc016bd40a",
+    "username": "Seraina Müller",
+    "email": "seraina@bzz.ch",
+    "password": "Seraina",
+    "phone": "07741900"
+  },
+  {
+    "id": "2a23b626-7d22-4cbb-b00f-5cd16ba0ed2c",
+    "username": "Seraina Müller",
+    "email": "seraina@bzz.ch",
+    "password": "Seraina",
+    "phone": "0774191700"
+  },
+  {
+    "id": "019d4a89-7230-45f0-9ac2-86d09d9f7036",
+    "username": "Seraina Müller",
+    "email": "seraina@bzz.ch",
+    "password": "Seraina",
+    "phone": "0774191700"
+  },
+  {
+    "id": "6c3c369a-a9fc-4ad4-9d6c-6261fc33b6a2",
+    "username": "Seraina Müller",
+    "email": "seraina@bzz.ch",
+    "phone": "0774191700",
+    "password": "Seraina",
+    "password2": "Seraina"
+  }
 ]

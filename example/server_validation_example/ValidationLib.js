@@ -76,6 +76,23 @@ function checkLength(id, input, min, max) {
     im Internet nach "javascript regular expression for mobile number".
 */
 // Check phone is valid
+function checkPhone(id,input) {
+    //Default: is valid
+    let result = {
+        isNotValid: false,
+        msg: showSuccess(id)
+    }
+    const re = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/;
+    if (!re.test(input.trim())) {
+        result = {
+            isNotValid: true,
+            msg: showError(id, 'Phone number is not valid')
+        }
+    }
+    return result;
+}
+
+
 
 
 /* Aufgabe 3:
@@ -83,6 +100,21 @@ function checkLength(id, input, min, max) {
     Falls sie nicht übereinstimmen, geben Sie (ähnlich wie in den anderen Beispielen)
     eine Fehlermeldung dem Formular aus.
 */
+
+function checkPassword(id, input, input2) {
+    //Default: is valid
+    let result = {
+        isNotValid: false,
+        msg: showSuccess(id)
+    }
+    if (input != input2) {
+        result = {
+            isNotValid: true,
+            msg: showError(id, 'Password is not valid')
+        }
+    }
+    return result;
+}
 
 
 
@@ -93,5 +125,7 @@ function checkLength(id, input, min, max) {
 module.exports = {
     checkEmail,
     checkLength,
-    checkRequired
+    checkRequired,
+    checkPhone,
+    checkPassword
 }

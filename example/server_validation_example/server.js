@@ -20,7 +20,7 @@ console.log(`Running at Port ${port}`);
 server.timeout = 1000 * 60 * 2; // 2 minutes
 
 //Warning: Korrekt setzen!!
-const staticPath = './12b_validation_server/03_Solutions/register-server-02/data/';
+const staticPath = './server_validation_example/data/';
 const registrationFile = staticPath+'registration.json';
 
 
@@ -36,7 +36,7 @@ app.use(function (req, res, next) {
 //test uuid
 app.get('/test1', (req, res) => {
     const id = uuidv4();
-    res.send("Seraina checkts");
+    res.send("Seraina");
 });
 
 
@@ -64,7 +64,9 @@ app.post('/register', (req, res) => {
         "id": uuidv4(),
         "username": req.body.user.username,
         "email": req.body.user.email,
-        "password": req.body.user.password
+        "phone": req.body.user.phone,
+        "password": req.body.user.password,
+        "password2": req.body.user.password2
     }
 
     let result = Validation.validateUser(userObj);
