@@ -9,6 +9,7 @@ const genders = document.getElementsByName('gender');
 
 // Show input error message
 function showError(input, message) {
+  console.log(message);
   const formControl = input.parentElement;
   formControl.className = 'form-control error';
   const small = formControl.querySelector('small');
@@ -17,6 +18,7 @@ function showError(input, message) {
 
 // Show success outline
 function showSuccess(input) {
+  console.log(`${getFieldName(input)} is valid`);
   const formControl = input.parentElement;
   formControl.className = 'form-control success';
 }

@@ -46,5 +46,13 @@
     "phone": "0774191700",
     "password": "Seraina",
     "password2": "Seraina"
+  },
+  {
+    "id": "2fa8ee62-7848-48bf-a2d7-acaeca517f06",
+    "username": "Seraina Müller",
+    "email": "muellers2@bzz.ch",
+    "phone": "0774191700",
+    "password": "Seraina",
+    "password2": "Seraina"
   }
 ]
